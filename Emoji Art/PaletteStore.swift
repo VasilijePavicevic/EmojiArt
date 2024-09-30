@@ -5,6 +5,8 @@
 //  Created by Vasilije Pavicevic on 30.9.24..
 //
 
+// dkaopskdopaskopdksaopopd
+
 import SwiftUI
 
 class PaletteStore: ObservableObject {
@@ -21,7 +23,7 @@ class PaletteStore: ObservableObject {
         self.name = name
         palettes = Palette.builtins
         if palettes.isEmpty{
-            palettes = [Palette(name: "Warning", emojis: "☢️")]
+            palettes = [Palette(name: "Warningg", emojis: "☢️")]
         }
     }
     
