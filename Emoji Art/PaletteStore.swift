@@ -21,7 +21,7 @@ class PaletteStore: ObservableObject {
         self.name = name
         palettes = Palette.builtins
         if palettes.isEmpty{
-            palettes = [Palette(name: "Warning", emojis: "☢️")]
+            palettes = [Palette(name: "Warningg", emojis: "☢️")]
         }
     }
     
