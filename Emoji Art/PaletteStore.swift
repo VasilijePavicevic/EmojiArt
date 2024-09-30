@@ -5,6 +5,8 @@
 //  Created by Vasilije Pavicevic on 30.9.24..
 //
 
+// dkaopskdopaskopdksaopopd
+
 import SwiftUI
 
 class PaletteStore: ObservableObject {
