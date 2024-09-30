@@ -15,6 +15,10 @@
 		1EFAF3B92CA4F94D00DCDB45 /* EmojiArtDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3B82CA4F94D00DCDB45 /* EmojiArtDocument.swift */; };
 		1EFAF3BB2CA4FA8C00DCDB45 /* EmojiArtDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3BA2CA4FA8C00DCDB45 /* EmojiArtDocumentView.swift */; };
 		1EFAF3BD2CA4FCB600DCDB45 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3BC2CA4FCB600DCDB45 /* Extensions.swift */; };
+		1EFAF3C12CAA319800DCDB45 /* Sturldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3C02CAA319800DCDB45 /* Sturldata.swift */; };
+		1EFAF3C52CAA98F900DCDB45 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3C42CAA98F900DCDB45 /* Palette.swift */; };
+		1EFAF3C72CAA992600DCDB45 /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3C62CAA992600DCDB45 /* PaletteStore.swift */; };
+		1EFAF3C92CAA9EE100DCDB45 /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF3C82CAA9EE100DCDB45 /* PaletteChooser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		1EFAF3B82CA4F94D00DCDB45 /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
 		1EFAF3BA2CA4FA8C00DCDB45 /* EmojiArtDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentView.swift; sourceTree = "<group>"; };
 		1EFAF3BC2CA4FCB600DCDB45 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1EFAF3C02CAA319800DCDB45 /* Sturldata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sturldata.swift; sourceTree = "<group>"; };
+		1EFAF3C42CAA98F900DCDB45 /* Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Palette.swift; path = "../../../Downloads/Emoji Art L11/Emoji Art/Palette.swift"; sourceTree = "<group>"; };
+		1EFAF3C62CAA992600DCDB45 /* PaletteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteStore.swift; sourceTree = "<group>"; };
+		1EFAF3C82CAA9EE100DCDB45 /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				1EFAF3A82CA4F69500DCDB45 /* Emoji_ArtApp.swift */,
-				1EFAF3AA2CA4F69500DCDB45 /* ContentView.swift */,
 				1EFAF3B62CA4F86900DCDB45 /* EmojiArt.swift */,
 				1EFAF3B82CA4F94D00DCDB45 /* EmojiArtDocument.swift */,
 				1EFAF3BA2CA4FA8C00DCDB45 /* EmojiArtDocumentView.swift */,
+				1EFAF3C82CAA9EE100DCDB45 /* PaletteChooser.swift */,
+				1EFAF3C42CAA98F900DCDB45 /* Palette.swift */,
+				1EFAF3AA2CA4F69500DCDB45 /* ContentView.swift */,
+				1EFAF3C62CAA992600DCDB45 /* PaletteStore.swift */,
+				1EFAF3C02CAA319800DCDB45 /* Sturldata.swift */,
 				1EFAF3BC2CA4FCB600DCDB45 /* Extensions.swift */,
 				1EFAF3AC2CA4F69600DCDB45 /* Assets.xcassets */,
 				1EFAF3AE2CA4F69600DCDB45 /* Preview Content */,
@@ -149,12 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFAF3C12CAA319800DCDB45 /* Sturldata.swift in Sources */,
 				1EFAF3BB2CA4FA8C00DCDB45 /* EmojiArtDocumentView.swift in Sources */,
 				1EFAF3BD2CA4FCB600DCDB45 /* Extensions.swift in Sources */,
 				1EFAF3B72CA4F86900DCDB45 /* EmojiArt.swift in Sources */,
+				1EFAF3C72CAA992600DCDB45 /* PaletteStore.swift in Sources */,
 				1EFAF3AB2CA4F69500DCDB45 /* ContentView.swift in Sources */,
 				1EFAF3A92CA4F69500DCDB45 /* Emoji_ArtApp.swift in Sources */,
 				1EFAF3B92CA4F94D00DCDB45 /* EmojiArtDocument.swift in Sources */,
+				1EFAF3C52CAA98F900DCDB45 /* Palette.swift in Sources */,
+				1EFAF3C92CAA9EE100DCDB45 /* PaletteChooser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
