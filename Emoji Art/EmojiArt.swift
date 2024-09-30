@@ -5,6 +5,8 @@
 //  Created by Vasilije Pavicevic on 26.9.24..
 //
 
+
+// komentar za pr
 import Foundation
 
 struct EmojiArt {
